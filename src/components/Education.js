@@ -28,28 +28,29 @@ export const Education = () => {
                                 <Card.Body>
                                     <Card.Title>Sreenidhi Institute of Science and Technology</Card.Title>
                                     <Card.Text>B.Tech</Card.Text>
-                                    <Card.Text>2022-2025</Card.Text>
-                                    <Card.Text>CGPA: 8.77</Card.Text>
-                                    <Card.Text>Specialization: Electronics and Communication</Card.Text>
+                                    <Card.Text>2022-2026</Card.Text>
+                                    <Card.Text>CGPA: 8.74</Card.Text>
+                                    <Card.Text>Specialization: Electric and Electronics</Card.Text>
                                 </Card.Body>
                             </Card>
-                            <Card style={{ width: '18rem', marginBottom: '20px' }}>
+                            <Card style={{ width: '18rem', marginBottom: '15px', marginTop: '5px'}}>
                                 <Card.Img variant="top" src={gioe} />
                                 <Card.Body>
-                                    <Card.Title>Government Institute of Electronics</Card.Title>
-                                    <Card.Text>Diploma in Electronics and Communication</Card.Text>
-                                    <Card.Text>2018-2022</Card.Text>
-                                    <Card.Text>Percentage: 84.39</Card.Text>
-                                    <Card.Text>Special sandwich course with 6 months internship</Card.Text>
+                                    <Card.Title>TSRJC Sarvail</Card.Title>
+                                    <Card.Text>Inter</Card.Text>
+                                    <Card.Text>2020-2022</Card.Text>
+                                    <Card.Text>Percentage: 97.7</Card.Text>
+                                    <Card.Text>Specialization: MPC</Card.Text>
+                                    
                                 </Card.Body>
                             </Card>
                             <Card style={{ width: '18rem', marginBottom: '20px' }}>
                                 <Card.Img variant="top" src={jsm} />
                                 <Card.Body>
-                                    <Card.Title>JSM High School</Card.Title>
+                                    <Card.Title>Zilla Parishad High School</Card.Title>
                                     <Card.Text>High School</Card.Text>
-                                    <Card.Text>Till 2018</Card.Text>
-                                    <Card.Text>CGPA: 9.2</Card.Text>
+                                    <Card.Text>Till 2020</Card.Text>
+                                    <Card.Text>CGPA: 10.0</Card.Text>
                                 </Card.Body>
                             </Card>
                         </div>

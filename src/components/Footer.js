@@ -3,7 +3,7 @@ import profile from "../assets/img/profile1.jpeg";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import github from "../assets/img/github.svg";
 import medium from "../assets/img/medium.svg";
-import resumePdf from "../assets/Resume TSR.pdf"; // Import your resume file
+import resumePdf from "../assets/shivaramresume1ss.pdf"; // Import your resume file
 import { useState } from 'react';
 
 
@@ -49,18 +49,23 @@ export const Footer = () => {
                     <Col sm={6} className="logo-icons">
                         <img className="footer-img"
                             src={profile}
+                             style={{ 
+            width: '30%', // Ensure the image fills the container
+            height: '50%', // Ensure the image fills the container
+            objectFit: 'cover', // Maintain aspect ratio and cover the container
+            //borderRadius: '50%', // Apply border-radius to the image
+            imageRendering:'auto'
+        }} 
                             alt="Profile"
                         />
                         <div className="social-icon">
-                            <a href='https://www.linkedin.com/in/tsairithvik'>
+                            <a href='https://www.linkedin.com/in/shivaramkotla/'>
                                 <img src={navIcon1} alt='LinkedIn Icon' />
                             </a>
-                            <a href='https://github.com/tsrithvik'>
+                            <a href='https://github.com/shivaramkotla'>
                                 <img src={github} alt='GitHub Icon' />
                             </a>
-                            <a href='https://medium.com/@sairithvik1234'>
-                                <img src={medium} alt='Medium Icon' />
-                            </a>
+                           
                         </div>
                     </Col>
                     <Col sm={6} className="feedback-form">

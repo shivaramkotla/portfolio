@@ -43,9 +43,10 @@ const NavBar = () => {
         src={profile1} 
         style={{ 
             width: '100%', // Ensure the image fills the container
-            height: '100%', // Ensure the image fills the container
+            height: 'auto', // Ensure the image fills the container
             objectFit: 'cover', // Maintain aspect ratio and cover the container
-            borderRadius: '50%' // Apply border-radius to the image
+            borderRadius: '50%', // Apply border-radius to the image
+            imageRendering:'auto'
         }} 
         alt="Logo" 
     />
@@ -62,15 +63,13 @@ const NavBar = () => {
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href='https://www.linkedin.com/in/tsairithvik'>
+                            <a href='https://www.linkedin.com/in/shivaramkotla/'>
                                 <img src={navIcon1} alt='Linkedin Icon' />
                             </a>
-                            <a href='https://github.com/tsrithvik'>
+                            <a href='https://github.com/shivaramkotla'>
                                 <img src={github} alt='Github Icon' />
                             </a>
-                            <a href='https://medium.com/@sairithvik1234'>
-                                <img src={medium} alt='medium-icon' />
-                            </a>
+                           
                         </div>
                         <button className='vvd' onClick={() => window.location.href='https://www.linkedin.com/in/tsairithvik'}><span>Let's Connect</span></button>
                     </span>
