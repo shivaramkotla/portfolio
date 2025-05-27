@@ -71,7 +71,7 @@ const NavBar = () => {
                             </a>
                            
                         </div>
-                        <button className='vvd' onClick={() => window.location.href='https://www.linkedin.com/in/tsairithvik'}><span>Let's Connect</span></button>
+                        <button className='vvd' onClick={() => window.location.href='https://www.linkedin.com/in/shivaramkotla/'}><span>Let's Connect</span></button>
                     </span>
                 </Navbar.Collapse>
             </Container>
